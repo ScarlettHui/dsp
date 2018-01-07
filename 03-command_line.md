@@ -20,26 +20,26 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > -***show current working directory path***<br/>
-'pwd'<br/>
--***creating a directory***<br/>
-'mkdir'<br/>
--***deleting a directory***<br/>
-'rm -r'<br/>
--***creating a file using touch command***<br/>
-'touch filename.txt'<br/>
--***deleting a file***<br/>
-'rm'<br/>
--***renaming a file***<br/>
-'mv oldname.txt newname.txt'<br>
--***listing hidden files***<br>
-'ls -a'<br/>
--***copying a file from one directory to another***<br/>
-'cp direct1/filename.txt direct2/'<br/>
--***copying all the files from one directory to another directory***<br/>
-'cp direct1/* direct2"<br/>
--***copying all the txt files that starts with 'a' to another directory***<br/>
-'cp a*.txt direct2"<br/> 
+> > -**show current working directory path**<br/>
+*pwd*<br/>
+-**creating a directory**<br/>
+*mkdir*<br/>
+-**deleting a directory**<br/>
+*rm -r*<br/>
+-**creating a file using touch command**<br/>
+*touch filename.txt*<br/>
+-**deleting a file**<br/>
+*rm*<br/>
+-**renaming a file**<br/>
+*mv oldname.txt newname.txt*<br>
+-**listing hidden files**<br>
+*ls -a*<br/>
+-**copying a file from one directory to another**<br/>
+*cp direct1/filename.txt direct2/*<br/>
+-**copying all the files from one directory to another directory**<br/>
+_cp direct1/* direct2_<br/>
+-**copying all the txt files that starts with 'a' to another directory**<br/>
+_cp a*.txt direct2_<br/> 
 
 ---
 
@@ -54,7 +54,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` list all the files in current directory <br/>
+`ls -a` list all the files including all the hidden ones(whose name starts with .) <br/>
+`ls -l` list files in long format (including detailed information of them) <br/>
+`ls -lh` list files in long format and print sized in human readable format <br/>
+`ls -lah` list files including all the hidden ones and in long and human readable size formats <br/>
+`ls -t` list all the files and order them by modification time <br/>
+`ls -Glp` list all the files in long formats with color with all the directories ending with / <br/>
 
 ---
 
@@ -72,5 +78,5 @@ What does `xargs` do? Give an example of how to use it.
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
 
- 
+
 
