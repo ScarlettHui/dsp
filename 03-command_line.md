@@ -57,7 +57,7 @@ What do the following commands do:
 > > `ls` list all the files in current directory <br/>
 `ls -a` list all the files including all the hidden ones(whose name starts with .) <br/>
 `ls -l` list files in long format (including detailed information of them) <br/>
-`ls -lh` list files in long format and print sized in human readable format <br/>
+`ls -lh` list files in long format and print sizes in human readable format <br/>
 `ls -lah` list files including all the hidden ones and in long and human readable size formats <br/>
 `ls -t` list all the files and order them by modification time <br/>
 `ls -Glp` list all the files in long formats with color with all the directories ending with / <br/>
@@ -68,8 +68,13 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > Option | Description  
+-----------|------------  
+-a | Displays all files.  
+-d | Displays only directories.  
+-g | Displays the long format listing, but exclude the owner name.  
+-F | Flags filenames  
+-o | Displays the long format listing, but excludes group name.  
 ---
 
 ### Q4.  Xargs   
