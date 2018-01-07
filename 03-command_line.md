@@ -68,8 +68,9 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > Option | Description  
------------|------------  
+> > Option | Description
+__________ | ___________  
+---------- | -----------  
 -a | Displays all files.  
 -d | Displays only directories.  
 -g | Displays the long format listing, but exclude the owner name.  
@@ -81,7 +82,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > __xargs__ is a command on Unix and most Unix-like oprating systems used to build and execute commands from standard input. It converts input from standard input into arguments to command  
+One use case of xargs command is to remove a list of files using the _rm_ command  
+`find /path -type f -print | xargs rm`  
+the find utility feeds the input of `xargs` with a long list of file names. `xargs` then splits this list into sublists and calls `rm` once for every subilist  
 
 
 
