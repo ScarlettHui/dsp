@@ -20,23 +20,26 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > 
-***show current working directory path***
-'pwd'
-***creating a directory***
-'mkdir'
-***deleting a directory***
-'rm -r'
-***creating a file using touch command***
-'touch filename.txt'
-***deleting a file***
-'rm'
-***renaming a file***
-'mv oldname.txt newname.txt'
-***listing hidden files***
-'ls -a'
-***copying a file from one directory to another***
-'cp direct1/filename.txt direct2/'
+> > -***show current working directory path***<br/>
+'pwd'<br/>
+-***creating a directory***<br/>
+'mkdir'<br/>
+-***deleting a directory***<br/>
+'rm -r'<br/>
+-***creating a file using touch command***<br/>
+'touch filename.txt'<br/>
+-***deleting a file***<br/>
+'rm'<br/>
+-***renaming a file***<br/>
+'mv oldname.txt newname.txt'<br>
+-***listing hidden files***<br>
+'ls -a'<br/>
+-***copying a file from one directory to another***<br/>
+'cp direct1/filename.txt direct2/'<br/>
+-***copying all the files from one directory to another directory***<br/>
+'cp direct1/* direct2"<br/>
+-***copying all the txt files that starts with 'a' to another directory***<br/>
+'cp a*.txt direct2"<br/> 
 
 ---
 
