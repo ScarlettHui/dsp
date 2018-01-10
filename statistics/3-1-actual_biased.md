@@ -1,6 +1,8 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->> **Code**  
+>> 
+
+**Code**  
 import nsfg  
 import thinkstats2  
 import numpy as np  
@@ -27,7 +29,7 @@ thinkplot.Pmfs([pmf,pmfBias])
 thinkplot.Show(xlabel='Number of Childern', ylabel='PMF')  
 
 **Output**  
--Actual average number of children per home is 1.02; biased value is 2.40-  
+*Actual average number of children per home is 1.02; biased value is 2.40*  
 
 **Plot**  
 ![plot](../../ThinkStats2/Figure_C3E1.png)  
