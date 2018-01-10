@@ -32,5 +32,5 @@ thinkplot.Show(xlabel='Number of Childern', ylabel='PMF')
 *Actual average number of children per home is 1.02; biased value is 2.40*  
 
 **Plot**  
-![plot](dsp/statistics/Figure_C3E1.png)  
+![plot](statistics/Figure_C3E1.png)  
 
