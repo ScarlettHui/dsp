@@ -34,3 +34,4 @@ thinkplot.Show(xlabel='Number of Childern', ylabel='PMF')
 **Plot**  
 ![plot](/statistics/Figure_C3E1.png)  
 
+:smiley:
