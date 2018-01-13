@@ -19,6 +19,6 @@ thinkplot.Show(xlabel='Random Number',ylabel='CDF')
 **Plots**  
 ![PMF](dsp/img/Figure_C4_PMF.png)  
 ![CDF](dsp/img/Figure_C4_CDF.png)  
-  
+  png
 **Answer**    
 The distribution is uniform: from PMF plot, we can see that the probability for each value is the same 0.001; from CDF plot, we can see that the CDF at each value is equal to the value. Both indicate that the distribution is uniform  
